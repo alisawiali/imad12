@@ -1,0 +1,34 @@
+.content {
+    width: 600px;
+    height: 600px;
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+img {
+    width: 200px;
+    float: right;
+    padding: 20px;
+    border-radius: 30px;
+    object-fit: contain;
+}
+
+p::first-letter {
+    width: 200px;
+    color: blue;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+p {
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
